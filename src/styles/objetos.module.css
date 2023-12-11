@@ -1,0 +1,38 @@
+.body{
+  background-color: rgba(205, 250, 179, 0.842);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .symbolList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .symbolItem {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .symbolItem:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .symbolItem p {
+    margin: 0;
+  }
+  
+ 
